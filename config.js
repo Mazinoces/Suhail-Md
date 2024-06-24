@@ -62,7 +62,7 @@ global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "Y2STYWR1"  // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID ||  "Q3Z21QKT"  // PUT your SESSION_ID 
 
 
 module.exports = {
