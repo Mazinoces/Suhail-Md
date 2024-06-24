@@ -11,7 +11,7 @@ global.email ="saimsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://davemazino:7RukcOjTa88UYg8f@cluster0.1u6agqh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
@@ -62,7 +62,7 @@ global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "Q3Z21QKT"  // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID ||  ""  // PUT your SESSION_ID 
 
 
 module.exports = {
